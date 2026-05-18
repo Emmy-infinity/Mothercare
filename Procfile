@@ -1,2 +1,1 @@
-web: gunicorn Mother.wsgi : application 
-                   
+web: gunicorn Mother.wsgi:application
